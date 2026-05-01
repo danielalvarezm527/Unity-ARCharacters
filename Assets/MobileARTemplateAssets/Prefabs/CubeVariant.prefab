@@ -64,11 +64,35 @@ PrefabInstance:
       propertyPath: m_Name
       value: Base mesh MonsterMutant7 skin2 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 8062726678251012460, guid: f1e52c9b1cec74cafb9a08b62c52221b, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8062726678251012460, guid: f1e52c9b1cec74cafb9a08b62c52221b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6131854985288840178}
   m_SourcePrefab: {fileID: 100100000, guid: f1e52c9b1cec74cafb9a08b62c52221b, type: 3}
+--- !u!1 &5320688892844312991 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8062726678251012460, guid: f1e52c9b1cec74cafb9a08b62c52221b, type: 3}
+  m_PrefabInstance: {fileID: 2752382622170450163}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6131854985288840178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5320688892844312991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1f4c2b6c1f5449f78a75f73c0533e32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterCombatant
 --- !u!4 &5320688892844545471 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8062726678250528076, guid: f1e52c9b1cec74cafb9a08b62c52221b, type: 3}

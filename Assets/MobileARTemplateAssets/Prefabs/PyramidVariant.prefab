@@ -153,13 +153,37 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dummy
       objectReference: {fileID: 0}
+    - target: {fileID: 3243492615628199609, guid: 86556b9ba8b0e46e4b6d4fab875b7d4a, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3243492615628199609, guid: 86556b9ba8b0e46e4b6d4fab875b7d4a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6776837855411525790}
   m_SourcePrefab: {fileID: 100100000, guid: 86556b9ba8b0e46e4b6d4fab875b7d4a, type: 3}
 --- !u!4 &1340759156725178730 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2758705417343159299, guid: 86556b9ba8b0e46e4b6d4fab875b7d4a, type: 3}
   m_PrefabInstance: {fileID: 3806586962213317993}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1860133937364646864 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3243492615628199609, guid: 86556b9ba8b0e46e4b6d4fab875b7d4a, type: 3}
+  m_PrefabInstance: {fileID: 3806586962213317993}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6776837855411525790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860133937364646864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1f4c2b6c1f5449f78a75f73c0533e32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterCombatant

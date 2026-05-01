@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rake_B Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4858564378212957230, guid: 1565e83b7d6934f7db4434b8ca6fcde4, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5199060677549860500, guid: 1565e83b7d6934f7db4434b8ca6fcde4, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.39999998
@@ -67,8 +71,28 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4858564378212957230, guid: 1565e83b7d6934f7db4434b8ca6fcde4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6399626293318779187}
   m_SourcePrefab: {fileID: 100100000, guid: 1565e83b7d6934f7db4434b8ca6fcde4, type: 3}
+--- !u!1 &1169845766977693258 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4858564378212957230, guid: 1565e83b7d6934f7db4434b8ca6fcde4, type: 3}
+  m_PrefabInstance: {fileID: 6003639192944171620}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6399626293318779187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169845766977693258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1f4c2b6c1f5449f78a75f73c0533e32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterCombatant
 --- !u!4 &1979314626512518384 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5199060677549860500, guid: 1565e83b7d6934f7db4434b8ca6fcde4, type: 3}
